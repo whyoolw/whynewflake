@@ -1,0 +1,1 @@
+pragrags.niri.enable = true;
