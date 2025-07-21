@@ -41,7 +41,7 @@
         persistencedSha256 = lib.fakeSha256;
       };
       prime = {
-       # sync.enable = true;
+        sync.enable = true;
         nvidiaBusId = "PCI:14:0:0";
         intelBusId = "PCI:0:2:0";
       };

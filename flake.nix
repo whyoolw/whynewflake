@@ -17,12 +17,11 @@
     self
   , nixpkgs
   , home-manager
-  , hyprland
   , ... }@inputs:
   
   let
     system = "x86_64-linux"; 
-    curversion = "24.11";
+    curversion = "25.11";
     pkgs = import nixpkgs {
       inherit system;
       config = {
